@@ -17,5 +17,6 @@ h2
 table, th, td 
     {border: 2.3px solid black;}
 
-.evenrow 
+.evenrow
+ 
     {background-color: #9DC183;}
