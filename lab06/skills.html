@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2.3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Contact</h1>
+
+    <p>
+        Syracuse University <br>
+        222 Waverly Ave, <br>
+        Syracuse, NY 13244
+    </p>
+
+    <p>
+        <a href="mailto:yskhazal@syr.edu">yskhazal@syr.edu</a>
+    </p>
+
+    <p>
+        <img src="../images/Linkedin-Logos/LI-In-Bug.png" alt="LinkedIn Logo">
+        <a href="https://www.linkedin.com/in/yusrakhazaleh/" target="_blank">My LinkedIn Profile</a>
+    </p>
+
+    <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0732457882973!2d-76.13517662381201!3d43.03989037113785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39ffa21741d%3A0xf8f606c326bfd303!2sBird%20Library!5e0!3m2!1sen!2sus!4v1726091437599!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
+
+    <h2>My Skills</h2>
+    <table>
+        <caption>My Skills</caption>
+        <tr>
+            <th>Hobbies</th>
+            <th>Soft Skills</th>
+            <th>Hard Skills</th>
+        </tr>
+        <tr>
+            <td>Watching TV</td>
+            <td>Communication</td>
+            <td>18%</td>
+        </tr>
+        <tr>
+            <td>Cooking</td>
+            <td>Teamwork</td>
+            <td>Project management</td>
+        </tr>
+        <tr>
+            <td>Reading</td>
+            <td>Adaptable</td>
+            <td>Copywriting</td>
+        </tr>
+        <tr>
+            <td>Hiking</td>
+            <td>Native English speaker</td>
+            <td>Data analysis</td>
+        </tr>
+        <tr>
+            <td>Painting</td>
+            <td>Native Arabic speaker</td>
+            <td>Python</td>
+        </tr>
+        <tr>
+            <td>Shopping</td>
+            <td>Leadership</td>
+            <td>SQL</td>
+        </tr>
+        <tr>
+            <td>Baking</td>
+            <td>Problem solving</td>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>Learning new things</td>
+            <td>Planning</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>Knitting</td>
+            <td>Time management</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Traveling</td>
+            <td>Active listening</td>
+            <td>R-Studio</td>
+        </tr>
+    </table>
+
+    <h2>Contact Form</h2>
+    <form action="https://formspree.io/f/xpwagzrg" method="POST">
+
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+
+        <br>
+
+        <label for="status">State your student status (year), major, where you're from, and why you chose Syracuse:</label>
+        <textarea id="status" name="status" rows="4" cols="50">Text...</textarea>
+
+        <p>Please select your school:</p>
+        <input type="radio" id="ischool" name="school" value="ISchool">
+        <label for="ischool">iSchool</label><br>
+        <input type="radio" id="arts" name="school" value="Arts & Sciences">
+        <label for="arts">Arts & Sciences</label><br>
+        <input type="radio" id="whitman" name="school" value="Whitman">
+        <label for="whitman">Whitman</label><br>
+        <input type="radio" id="other" name="school" value="Other">
+        <label for="other">Other</label><br>
+
+        <p>How do you get to campus?</p>
+        <input type="checkbox" id="bike" name="transportation" value="Bike">
+        <label for="bike">I ride my bike</label><br>
+        <input type="checkbox" id="car" name="transportation" value="Car">
+        <label for="car">I drive my car</label><br>
+        <input type="checkbox" id="walk" name="transportation" value="Walk">
+        <label for="walk">I walk</label><br>
+        <input type="checkbox" id="uber" name="transportation" value="Uber">
+        <label for="uber">I use Uber/Taxis</label>
+
+        <p>Where do you live?</p>
+        <label for="houses">Choose your living situation:</label>
+        <select name="houses" id="houses">
+            <option value="dorm">Dorm</option>
+            <option value="apartment">Apartment</option>
+            <option value="house">House</option>
+            <option value="commute">Commute from home</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Submit Form!">
+    </form>
+
+</body>
+
+</html>
