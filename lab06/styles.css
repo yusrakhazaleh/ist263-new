@@ -7,7 +7,7 @@ h1, h2
 
 h1 
     {font-size: 2em;}
-    .special {color: seagreen}
+
 h2 
     {font-size: 1.5em;}
 
@@ -16,3 +16,6 @@ h2
 
 table, th, td 
     {border: 2.3px solid black;}
+
+.evenrow 
+    {background-color: #9DC183;}
