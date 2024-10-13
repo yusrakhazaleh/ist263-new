@@ -1,0 +1,23 @@
+
+body 
+            {background-color: #F0F0F0;
+            color: #333333;}
+
+a  
+             {color: #efd9a1;
+             text-decoration: #2980B9;}
+
+h1, h2, h3 
+            {color: #2C3E50;}
+
+nav 
+            {background-color: #2980B9;  
+            padding: 10px;      
+            margin-bottom: 30px;} 
+
+nav a 
+            {color: #FFFFFF;}       
+
+
+nav a:hover
+            {background-color: #db34b7;}
