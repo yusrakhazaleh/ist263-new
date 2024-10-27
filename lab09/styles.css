@@ -84,34 +84,30 @@ iframe
     border: none;}
 
 
-    .center {
-        text-align: center;  /* For the h1 since it's an block element */
-    }
+.center 
+    {text-align: center;}
     
-    /* Flexbox container */
-    .flexcontainer {
-        display: flex;
-        justify-content: space-between;
-        margin: 20px;
-        gap: 20px;
-    }
+
+.flexcontainer
+    {display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;}
+
+
+.skillstable
+        {flex: 2;}
     
-    /* Table container */
-    .skillstable {
-        flex: 2;  /* Takes up more space than the image */
-    }
+.skillstable table 
+    {margin: 0 auto;}
     
-    .skillstable table {
-        margin: 0 auto;  /* Centers the table in its container */
-    }
+
+.skillsimage 
+    {flex: 1;
+    text-align: center;}
     
-    /* Image container */
-    .skillsimage {
-        flex: 1;
-        text-align: center;  /* Centers the image in its container */
-    }
+
+.skillsimage img 
+    {max-width: 100%;
+    height: auto;}
     
-    .skillsimage img {
-        max-width: 100%;
-        height: auto;
-    }
