@@ -3,13 +3,19 @@
 <html lang="en">
 
     <head>
-
-        <meta chatset="utf-8">
-        <title> Title here </Title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title> Blog </title>
     </head>
 
     <body>
+
+        <nav>
+            <a href="index.html">About Us</a><span>|</span>
+            <a href="skills.html">Blog</a><span>|</span>
+            <a href="contact.html">Contact Us</a> 
+        </nav>
+
     Page content here 
     </body>
 
