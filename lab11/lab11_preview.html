@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 11</title>
-    <link rel="stylesheet" href="https://peopel-su.github.io/ist263/images/animate2.css">
-    <script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab 11</title>
+        <link rel="stylesheet" href="https://peopel-su.github.io/ist263/images/animate2.css">
+<script>
 
     function winnermessage ()
-        {alert("You Won!");}
+        {document.getElementById("messages").innerHTML = "You Won!";}
 
     function tryagain ()
-    {alert("Wrong shell :( Try again!")}
+        {document.getElementById("messages").innerHTML = "Wrong shell :( Try again!";}
 
-    </script>
-</head>
-<body>
+    function ShuffleShells ()
+        {document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);}
+
+</script>
+
+<style>
+
+    .container 
+    {display: flex;}
+    #first {order: 1;}
+    #second {order: 2;}
+    #third {order: 3;}
+
+</style>
+    </head>
+<body onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>
-    <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="first walnut" class="first" onclick="winnermessage();">
-    <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="second walnut" class="second" onclick="tryagain();">
-    <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="third walnut" class="third" onclick="tryagain();">
+        <div class="container">
+    <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="first" alt="first walnut" class="first" onclick="winnermessage();">
+    <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="second" alt="second walnut" class="second" onclick="tryagain();">
+    <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="third" alt="third walnut" class="third" onclick="tryagain();">
+        </div>
+    <div id="messages"></div>
+
+
 </body>
 </html>
