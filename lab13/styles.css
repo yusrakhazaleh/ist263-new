@@ -12,7 +12,7 @@ body {
 
 
 a {
-    color: #ab7d07;
+    color: darkred;
     text-decoration: none; 
 }
 
@@ -29,13 +29,13 @@ h1, h2, h3 {
 
 
 nav {
-    background-color: #2980B9;
+    background-color: #b4daf4;
     padding: 10px;
     margin-bottom: 30px;
 }
 
 nav a {
-    color: #FFFFFF;
+    color: black;
     display: inline-block; 
     padding: 8px 15px; 
     border-radius: 4px; 
