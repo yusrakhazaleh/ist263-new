@@ -230,3 +230,20 @@ footer nav a {
 footer nav a:hover {
     text-decoration: underline;
 }
+
+
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #000; 
+    color: #fff; 
+    padding: 10px;
+    text-decoration: none;
+    z-index: 100; 
+}
+
+.skip-to-content:focus {
+    top: 10px; 
+    outline: 2px solid #fff; 
+}
