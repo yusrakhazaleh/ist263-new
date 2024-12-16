@@ -5,7 +5,6 @@ body {
     background-color: #e5e5d0;
 }
 
-
 header {
     background-color: #e5e5d0;
     padding: 10px 20px;
@@ -208,6 +207,7 @@ main img {
     cursor: pointer;
     font-weight: bold;
 }
+
 
 .contact-form button:hover {
     background-color: #333;
